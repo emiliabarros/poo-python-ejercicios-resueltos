@@ -6,9 +6,9 @@
 ## Estructura del proyecto
 
 ```
-biblioteca/
+Proyecto_Integrador_POO/
 │
-├── main.py                          ← PUNTO DE ENTRADA (Paso 4 — Demo)
+├── main.py                          ← Punto de entrada (demo)
 │
 ├── models/                          ← Clases de dominio (entidades)
 │   ├── __init__.py
@@ -38,9 +38,9 @@ biblioteca/
 - Python 3.10 o superior (se usa f-strings con expresiones)
 - No requiere librerías externas
 
-### Demo completa (Paso 4)
+### Demo completa
 ```bash
-# Desde la carpeta biblioteca/
+# Desde la carpeta Proyecto_Integrador_POO/
 python main.py
 ```
 
