@@ -39,7 +39,7 @@ Al completar esta unidad el estudiante será capaz de:
 ## Estructura del Proyecto
 
 ```
-unidad_02_clases_objetos/
+poo-python-ejercicios-resueltos/
 │
 ├── README.md
 │
@@ -54,7 +54,21 @@ unidad_02_clases_objetos/
 ├── resuelto_03_jerarquia_animal_abc.py    ← Jerarquía con ABC
 ├── resuelto_04_patron_singleton.py        ← Patrón Singleton
 ├── resuelto_05_patron_observer.py         ← Patrón Observer
-└── resuelto_06_uml_a_codigo_empleados.py  ← UML → código
+├── resuelto_06_uml_a_codigo_empleados.py  ← UML → código
+│
+└── Proyecto_Integrador_POO/               ← Sistema de gestión de biblioteca (con tests)
+```
+
+---
+
+## Proyecto Integrador
+
+La carpeta [`Proyecto_Integrador_POO`](Proyecto_Integrador_POO/) reúne todos los conceptos en un sistema de gestión de biblioteca: clases abstractas, herencia y polimorfismo, composición y agregación, separación en capas (`models`, `services`, `utils`) y **35 tests unitarios** con `unittest`.
+
+```bash
+cd Proyecto_Integrador_POO
+python main.py                                  # demo
+python -m unittest tests/test_biblioteca.py -v  # tests
 ```
 
 ---
